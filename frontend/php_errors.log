@@ -1,0 +1,45 @@
+[24-Apr-2018 22:19:02 UTC] PHP Fatal error:  Class 'AppAsset' not found in /home/ubuntu/workspace/estore/frontend/views/layouts/emain.php on line 15
+[24-Apr-2018 22:19:02 UTC] PHP Stack trace:
+[24-Apr-2018 22:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/estore/frontend/web/index.php:0
+[24-Apr-2018 22:19:02 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/estore/frontend/web/index.php:17
+[24-Apr-2018 22:19:02 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Application.php:386
+[24-Apr-2018 22:19:02 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/web/Application.php:103
+[24-Apr-2018 22:19:02 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Module.php:528
+[24-Apr-2018 22:19:02 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:157
+[24-Apr-2018 22:19:02 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Apr-2018 22:19:02 UTC] PHP   8. frontend\controllers\SiteController->actionIndex() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Apr-2018 22:19:02 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/estore/frontend/controllers/SiteController.php:76
+[24-Apr-2018 22:19:02 UTC] PHP  10. yii\base\Controller->renderContent() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:385
+[24-Apr-2018 22:19:02 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:399
+[24-Apr-2018 22:19:02 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/View.php:254
+[24-Apr-2018 22:19:02 UTC] PHP  13. require() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/View.php:336
+[25-Apr-2018 10:45:23 UTC] PHP Fatal error:  Class 'EstoreLuyaAsset' not found in /home/ubuntu/workspace/estore/frontend/views/layouts/emain.php on line 18
+[25-Apr-2018 10:45:23 UTC] PHP Stack trace:
+[25-Apr-2018 10:45:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/estore/frontend/web/index.php:0
+[25-Apr-2018 10:45:23 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/estore/frontend/web/index.php:17
+[25-Apr-2018 10:45:23 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Application.php:386
+[25-Apr-2018 10:45:23 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/web/Application.php:103
+[25-Apr-2018 10:45:23 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Module.php:528
+[25-Apr-2018 10:45:23 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:157
+[25-Apr-2018 10:45:23 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57
+[25-Apr-2018 10:45:23 UTC] PHP   8. frontend\controllers\SiteController->actionIndex() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57
+[25-Apr-2018 10:45:23 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/estore/frontend/controllers/SiteController.php:76
+[25-Apr-2018 10:45:23 UTC] PHP  10. yii\base\Controller->renderContent() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:385
+[25-Apr-2018 10:45:23 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:399
+[25-Apr-2018 10:45:23 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/View.php:254
+[25-Apr-2018 10:45:23 UTC] PHP  13. require() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/View.php:336
+[25-Apr-2018 10:46:22 UTC] PHP Fatal error:  Class 'Breadcrumbs' not found in /home/ubuntu/workspace/estore/frontend/views/layouts/emain.php on line 241
+[25-Apr-2018 10:46:22 UTC] PHP Stack trace:
+[25-Apr-2018 10:46:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/estore/frontend/web/index.php:0
+[25-Apr-2018 10:46:22 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/estore/frontend/web/index.php:17
+[25-Apr-2018 10:46:22 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Application.php:386
+[25-Apr-2018 10:46:22 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/web/Application.php:103
+[25-Apr-2018 10:46:22 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Module.php:528
+[25-Apr-2018 10:46:22 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:157
+[25-Apr-2018 10:46:22 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57
+[25-Apr-2018 10:46:22 UTC] PHP   8. frontend\controllers\SiteController->actionIndex() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/InlineAction.php:57
+[25-Apr-2018 10:46:22 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/estore/frontend/controllers/SiteController.php:76
+[25-Apr-2018 10:46:22 UTC] PHP  10. yii\base\Controller->renderContent() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:385
+[25-Apr-2018 10:46:22 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/Controller.php:399
+[25-Apr-2018 10:46:22 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/View.php:254
+[25-Apr-2018 10:46:22 UTC] PHP  13. require() /home/ubuntu/workspace/estore/vendor/yiisoft/yii2/base/View.php:336

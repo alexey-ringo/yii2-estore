@@ -10,6 +10,7 @@ return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'language' => 'ru',
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
@@ -45,7 +46,31 @@ return [
             'rules' => [
             ],
         ],
-        
+        /*
+        'assetManager' => [
+            'bundles' => [
+               'yii\web\JqueryAsset' => [
+                    'sourcePath' => null,
+                    'js'=>[],
+                ],
+                
+                'yii\web\YiiAsset' => [
+                    'sourcePath' => null,
+                    'js'=>[],
+                ],
+                
+                'yii\bootstrap\BootstrapAsset' => [
+                    'sourcePath' => null,
+                    'css'=>[],
+                ],
+                'yii\bootstrap\BootstrapPluginAsset' => [
+                    'sourcePath' => null,
+                    'js'=>[],
+                ],
+            ],
+        ],
+        */
     ],
     'params' => $params,
+    'layout' => 'emain',
 ];
