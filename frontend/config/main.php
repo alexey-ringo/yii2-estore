@@ -72,5 +72,5 @@ return [
         */
     ],
     'params' => $params,
-    /*'layout' => 'emain',*/
+    'layout' => 'emain',
 ];
